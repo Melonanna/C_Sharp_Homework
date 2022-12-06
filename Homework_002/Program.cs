@@ -1,7 +1,9 @@
-﻿int a;
+﻿
+/*Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+*/
+int a;
 int b;
 int c;
-int max;
 
 Console.Write($"Введите первое число: ");
 int.TryParse(Console.ReadLine()!, out a);
@@ -10,9 +12,19 @@ int.TryParse(Console.ReadLine()!, out b);
 Console.Write($"Введите третье число: ");
 int.TryParse(Console.ReadLine()!, out c);
 
-if (a>max) max=a;
-if (b>max) max=b;
-if (c>max) max=c;
+int max=a,
 
-Console.Write("Максимальное число - это ");
-Console.WriteLine(max);
+if (b>a)
+{
+  Console.Write($"Наибольшее число - {b} ");
+}
+
+if (c>a)
+{
+  Console.Write($"Наибольшее число - {c} ");
+}
+
+else 
+{
+  Console.Write($"Наибольшее число - {a} ");
+}
