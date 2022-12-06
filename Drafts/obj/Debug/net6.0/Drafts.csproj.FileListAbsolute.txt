@@ -1,0 +1,15 @@
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.csproj.AssemblyReference.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.AssemblyInfoInputs.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.AssemblyInfo.cs
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.csproj.CoreCompileInputs.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/bin/Debug/net6.0/Drafts
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/bin/Debug/net6.0/Drafts.deps.json
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/bin/Debug/net6.0/Drafts.runtimeconfig.json
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/bin/Debug/net6.0/Drafts.dll
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/bin/Debug/net6.0/Drafts.pdb
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.dll
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/refint/Drafts.dll
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.pdb
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/Drafts.genruntimeconfig.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Drafts/obj/Debug/net6.0/ref/Drafts.dll
