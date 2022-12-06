@@ -1,11 +1,10 @@
 ﻿int a=5;
 int b=7;
-int max=a;
 
 Console.WriteLine($"Первое число - {a} ");
 Console.WriteLine($"Второе число - {b} ");
 
-if (a>max) {
+if (a>b) {
  Console.WriteLine($"Наибольшее число - {a} "); 
 }
 else 
@@ -16,12 +15,11 @@ else
 
 int d=2;
 int e=10;
-int more=d;
 
 Console.WriteLine($"Первое число - {d} ");
 Console.WriteLine($"Второе число - {e} ");
 
-if (d>more) {
+if (d>e) {
   Console.WriteLine($"Наибольшее число - {d} "); 
 }
 else 
@@ -31,12 +29,11 @@ else
 
 int f=-9;
 int g=-3;
-int m=d;
 
 Console.WriteLine($"Первое число - {f} ");
 Console.WriteLine($"Второе число - {g} ");
 
-if (f>m) {
+if (f>g) {
   Console.WriteLine($"Наибольшее число - {f} "); 
 }
 else 
