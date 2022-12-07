@@ -79,4 +79,13 @@ Console.Write($" {n} ");
  //} 
 
 
- 
+ int a;
+
+Console.Write($"Введите число: ");
+int.TryParse(Console.ReadLine()!, out a);
+
+
+if (a<99)
+{Console.Write($"Такой цифры нет");}
+else
+{Console.Write($"Третья цифра - {a%10}");}
