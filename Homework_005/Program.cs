@@ -2,5 +2,5 @@
 
 Console.Write($"Введите число: ");
 string number = Console.ReadLine()!;
-Console.Write($"Цифра = {number[1]}");
+Console.Write($"Вторая цифра = {number[1]}");
 
