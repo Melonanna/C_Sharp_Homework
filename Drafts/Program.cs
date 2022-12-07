@@ -103,7 +103,7 @@ else
 
 
 /* Выводит случайное число из отрезка  [10,99 ] и показывает наибол цифру числа*/
-
+/*
 int num=new Random().Next(10,100);
 Console.Write($"{num}");
 
@@ -111,3 +111,78 @@ if (num/10>num%10)
   Console.Write($"   {num/10}");
 else
 Console.Write($"   {num%10}");
+*/
+
+/* Выводит случайное 3 значное число и удаляет среднюю цифру
+
+
+int num=new Random().Next(100,1000);
+Console.Write($"{num}");
+
+int num2=num/100*10+num%10;
+Console.Write($"   {num2}");
+*/
+
+/*  Прога принимает на вход 2 числа: выводит является ли второе кратным первому 
+если не кратно прога выводит остаток от деления
+
+int a,b;
+
+
+Console.Write($"Введите число 1: ");
+int.TryParse(Console.ReadLine()!, out a);
+
+Console.Write($"Введите число 2: ");
+int.TryParse(Console.ReadLine()!, out b);
+
+if (a%b==0)
+{
+  Console.Write($"Второе число кратно первому ");
+}
+else
+{
+  Console.Write($"Второе число НЕ кратно первому. Остаток = {a%b} ");
+
+}
+*/
+
+/*Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+
+int a,b;
+
+Console.Write($"Введите число 1: ");
+int.TryParse(Console.ReadLine()!, out a);
+
+Console.Write($"Введите число 2: ");
+int.TryParse(Console.ReadLine()!, out b);
+
+if (a==b*b)
+{
+  Console.Write($"Первое число является квадратом второго ");
+}
+
+if (b==a*a)
+{
+  Console.Write($"Второе число является квадратом первого ");
+}
+else
+{
+  Console.Write($"Ни одно из чисел не является квадратом другого ");
+
+}
+
+*/
+
+/*Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.*/
+
+
+int a;
+
+Console.Write($"Введите число 1: ");
+int.TryParse(Console.ReadLine()!, out a);
+
+if (a%7==0 || a%23==0) /* && - И,  || - ИЛИ */
+{Console.Write($"да!");}
+
+else 
+{Console.Write($"нет!");}
