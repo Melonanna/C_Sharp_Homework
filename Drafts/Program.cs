@@ -44,7 +44,7 @@ n++;
 }
 */
 
-int N;
+/*int N;
 Console.Write($"Введите число: ");
 int.TryParse(Console.ReadLine()!, out N);
 
@@ -77,7 +77,7 @@ Console.Write($" {n} ");
  // n++;
 
  //} 
-
+/*
 
  int a;
 
@@ -89,3 +89,25 @@ if (a<99)
 {Console.Write($"Такой цифры нет");}
 else
 {Console.Write($"Третья цифра - {a%10}");}
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+/* Выводит случайное число из отрезка  [10,99 ] и показывает наибол цифру числа*/
+
+int num=new Random().Next(10,100);
+Console.Write($"{num}");
+
+if (num/10>num%10)
+  Console.Write($"   {num/10}");
+else
+Console.Write($"   {num%10}");

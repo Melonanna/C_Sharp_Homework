@@ -1,10 +1,10 @@
 ﻿/* Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.*/
-int a;
+int num;
 
 Console.Write($"Введите число: ");
-string number = Console.ReadLine()!;
+string num = Console.ReadLine()!;
 
-if (a<99)
+if (num<99)
 {Console.Write($"Такой цифры нет");}
 else
 {Console.Write($"Цифра = {number[2]}");}
