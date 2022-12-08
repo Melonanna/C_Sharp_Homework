@@ -186,3 +186,18 @@ if (a%7==0 || a%23==0) /* && - И,  || - ИЛИ */
 
 else 
 {Console.Write($"нет!");}
+
+
+
+
+
+int a;
+bool aflag;
+
+Console.Write($"Введите число: ");
+aflag=int.TryParse(Console.ReadLine()!, out a);
+
+if (!aflag) 
+{
+Console.Write($"вы неправильно ввели число");
+}
