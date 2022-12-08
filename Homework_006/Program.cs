@@ -18,18 +18,16 @@ else
 
 
 int a;
-bool aflag;
 
 Console.Write($"Введите число: ");
-aflag=int.TryParse(Console.ReadLine()!, out a);
+int.TryParse(Console.ReadLine()!, out a);
 
-if (!aflag) 
+if (a>99) 
 {
-Console.Write($"вы неправильно ввели число");
-return;
+Console.Write($" Третья цифра -{a%10}");
 }
 
-
-
-
+else 
+{Console.Write($"Третьей цифры нет");
+}
 
