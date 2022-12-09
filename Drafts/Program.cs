@@ -175,14 +175,14 @@ else
 
 /*Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.*/
 
-
+/*
 int a;
 
 Console.Write($"Введите число 1: ");
 int.TryParse(Console.ReadLine()!, out a);
 
 if (a%7==0 || a%23==0) /* && - И,  || - ИЛИ */
-{Console.Write($"да!");}
+/*{Console.Write($"да!");}
 
 else 
 {Console.Write($"нет!");}
@@ -201,3 +201,28 @@ if (!aflag)
 {
 Console.Write($"вы неправильно ввели число");
 }
+*/
+// прога принимает на вход координаты 2 точек и находит расстояние между ними в 2Д пространстве
+
+int xa, xb, ya, yb;
+
+Console.Write($" Введите координату X точки a: ");
+int.TryParse(Console.ReadLine()!, out xa);
+Console.Write($" Введите координату Y точки a: ");
+int.TryParse(Console.ReadLine()!, out ya);
+Console.Write($" Введите координату X точки b: ");
+int.TryParse(Console.ReadLine()!, out xb);
+Console.Write($" Введите координату Y точки b: ");
+int.TryParse(Console.ReadLine()!, out yb);
+
+
+int x= (xb-xa)*(xb-xa);
+int y=(yb-ya)*(yb-ya);
+
+Console.WriteLine($"Расстояние между точками = {Math.Sqrt(x+y)}");
+
+
+
+
+
+
