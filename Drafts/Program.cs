@@ -219,7 +219,8 @@ int.TryParse(Console.ReadLine()!, out yb);
 int x= (xb-xa)*(xb-xa);
 int y=(yb-ya)*(yb-ya);
 
-Console.WriteLine($"Расстояние между точками = {Math.Sqrt(x+y)}");
+double final= Math.Sqrt(x+y);
+Console.WriteLine($"Расстояние между точками = {Math.Round(final,2)}");
 
 
 
