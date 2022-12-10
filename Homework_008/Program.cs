@@ -17,17 +17,3 @@ else
 {
   Console.Write($"Нет. Число {a} не палиндром");
 }
-
-
-/*int digit;
-
-if (digit[0]=digit[4] && digit[1]=digit[3])
-
-{Console.Write($"Число {a} - палиндром");
-}
-else
-
-{Console.Write($"Число {a} - НЕ палиндром");
-}
-
-*/
