@@ -4,8 +4,10 @@ int N;
 
 Console.Write($" Введите число N: ");
 int.TryParse(Console.ReadLine()!, out N);
+int i;
 
 for (i=1; i<=N; i++ )
 {
-Console.Write($"{N*N*N}");
+Console.Write($"{i*i*i}");
+Console.Write(" ");
 }
