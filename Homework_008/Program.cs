@@ -8,12 +8,18 @@ int.TryParse(Console.ReadLine()!, out a);
 if (a>99999 || a<10000)
 {Console.Write($"Вы ввели неверное число");}
 
-else
+else if (a/10000 == a%10 && a/1000%10 == a%100/10)
 {
-  Console.Write($"молодец!");
+  Console.Write($"Да! Число {a} - палиндром");
 }
 
-int digit;
+else 
+{
+  Console.Write($"Нет. Число {a} не палиндром");
+}
+
+
+/*int digit;
 
 if (digit[0]=digit[4] && digit[1]=digit[3])
 
@@ -24,3 +30,4 @@ else
 {Console.Write($"Число {a} - НЕ палиндром");
 }
 
+*/
