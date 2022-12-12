@@ -9,3 +9,12 @@ int.TryParse(Console.ReadLine()!, out a);
 Console.Write($" Введите число b: ");
 int.TryParse(Console.ReadLine()!, out b);
 
+if (b>0)
+{
+Console.Write($"{Math.Pow(a,b)}");
+}
+
+else 
+{
+Console.Write($"{Math.Pow(a,-b)}");
+}
