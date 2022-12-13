@@ -1,0 +1,15 @@
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.csproj.AssemblyReference.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.GeneratedMSBuildEditorConfig.editorconfig
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.AssemblyInfoInputs.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.AssemblyInfo.cs
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.csproj.CoreCompileInputs.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/bin/Debug/net6.0/Homework_015
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/bin/Debug/net6.0/Homework_015.deps.json
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/bin/Debug/net6.0/Homework_015.runtimeconfig.json
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/bin/Debug/net6.0/Homework_015.dll
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/bin/Debug/net6.0/Homework_015.pdb
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.dll
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/refint/Homework_015.dll
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.pdb
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/Homework_015.genruntimeconfig.cache
+/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_015/obj/Debug/net6.0/ref/Homework_015.dll
