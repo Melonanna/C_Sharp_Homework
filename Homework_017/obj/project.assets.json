@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/Homework_017.csproj",
+      "projectUniqueName": "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_017/Homework_017.csproj",
       "projectName": "Homework_017",
-      "projectPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/Homework_017.csproj",
+      "projectPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_017/Homework_017.csproj",
       "packagesPath": "/Users/annasmirnova/.nuget/packages/",
-      "outputPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/obj/",
+      "outputPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_017/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/annasmirnova/.nuget/NuGet/NuGet.Config"

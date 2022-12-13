@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/Homework_017.csproj": {}
+    "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_018/Homework_018.csproj": {}
   },
   "projects": {
-    "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/Homework_017.csproj": {
+    "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_018/Homework_018.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/Homework_017.csproj",
-        "projectName": "Homework_017",
-        "projectPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/Homework_017.csproj",
+        "projectUniqueName": "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_018/Homework_018.csproj",
+        "projectName": "Homework_018",
+        "projectPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_018/Homework_018.csproj",
         "packagesPath": "/Users/annasmirnova/.nuget/packages/",
-        "outputPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/ Homework_017/obj/",
+        "outputPath": "/Users/annasmirnova/Desktop/Homework_C_Sharp/Homework_018/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/annasmirnova/.nuget/NuGet/NuGet.Config"
