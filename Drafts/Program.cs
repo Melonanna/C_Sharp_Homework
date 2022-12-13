@@ -203,7 +203,7 @@ Console.Write($"вы неправильно ввели число");
 }
 */
 // прога принимает на вход координаты 2 точек и находит расстояние между ними в 2Д пространстве
-
+/*
 int xa, xb, ya, yb;
 
 Console.Write($" Введите координату X точки a: ");
@@ -221,6 +221,47 @@ int y=(yb-ya)*(yb-ya);
 
 double final= Math.Sqrt(x+y);
 Console.WriteLine($"Расстояние между точками = {Math.Round(final,2)}");
+
+*/
+
+// создать массив из 12 элементов,заполненных случайными числами из промежутка -9 9
+//найти сумму отрицательных и положительных элементов массива
+
+int[]array = new int[12];
+for (int i=0; i<array.Length; i++)
+
+array[i] = new Random().Next(-9,10);
+Print(array);
+
+int neg=0;
+int pos=0;
+
+for (int i=0; i<array.Length; i++)
+{
+  if (array[i]>0)
+  pos=pos+array[i];
+  else 
+  neg=neg+array[i];
+}
+
+Console.Write($"Positive sum = {pos}\nnegative sum= {neg}");
+
+//функция вывода
+void Print(int[]arr)
+{
+  for (int i=0; i<arr.Length; i++)
+    Console.Write($"{arr[i]}");
+  Console.WriteLine();
+}
+
+
+
+
+
+
+
+
+
 
 
 
