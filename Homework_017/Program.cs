@@ -24,26 +24,43 @@ void Print(int[]arr)
 
 */
 
+// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+/*
+int M;
+Console.Write($"Введите количество чисел: "); 
+int.TryParse(Console.ReadLine()!, out M);
 
-int m;
-Console.Write($" Введите числа: ");
-int.TryParse(Console.ReadLine()!, out m);
+int[] array = new int[M];
 
-int []array=new int[m];
-
-for (int i = 0; i<m; i++)
-  Console.Write($"[{i}] = ");
-  int.TryParse(Console.ReadLine()!, out array[i]);
-
-int k=0;
-foreach (var int i in array)
+for (int i = 0; i < M; i++)
+  {
+    Console.Write($"[{i+1}] = ");
+    int.TryParse(Console.ReadLine()!, out array[i]);
+  }
+int count = 0;
+foreach(var i in array)
   if (i>0)
-  k++;
+    count++;
 
-/*int count =0;
-for (int i=0; i<m; i++)
-   {if (i>0)
-count=count+1;
-   }
-  */
-Console.Write($"{k} чисел больше 0");
+Console.Write($"{count} чисел больше 0");
+
+*/
+//ALTERNATIVE SOLUTION USING STRING 
+
+string[] numbers = Console.ReadLine()!.Split(' ');
+int[] array = new int[numbers.Length];
+
+for (int i=0; i<numbers.Length; i++)
+{ int.TryParse(numbers[i], out array[i]);
+Console.Write($"{array[i]} ");
+}
+
+int count = 0;
+foreach(var i in array)
+  if (i>0)
+    count++;
+
+Console.Write($"\n{count} чисел больше 0");
+
+
+
