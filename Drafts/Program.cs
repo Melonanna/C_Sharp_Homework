@@ -226,7 +226,7 @@ Console.WriteLine($"Расстояние между точками = {Math.Round
 
 // создать массив из 12 элементов,заполненных случайными числами из промежутка -9 9
 //найти сумму отрицательных и положительных элементов массива
-
+/*
 int[]array = new int[12];
 for (int i=0; i<array.Length; i++)
 
@@ -236,6 +236,13 @@ Print(array);
 int neg=0;
 int pos=0;
 
+int a=5;
+int b=3;
+int c= a>b ? 0:1;
+//если условие верно, выбираем 0 Если неверно -1 
+//сокращенный if -тернарное условие - сокращение кода
+Console.Write($"\nternar = {c}\n");
+
 for (int i=0; i<array.Length; i++)
 {
   if (array[i]>0)
@@ -243,25 +250,72 @@ for (int i=0; i<array.Length; i++)
   else 
   neg=neg+array[i];
 }
-
+// тернар: pos +=array[i]>0 ? array[i]:0;
+//         neg+=array[i]>0 ? array[i]:0;
 Console.Write($"Positive sum = {pos}\nnegative sum= {neg}");
 
-//функция вывода
+
+// foreach 
+/* foreach(int element in array)
+  {pos+=element >0 ? element:0;
+  neg +=element <0 ? element:0;
+  }
+*/
+
+/*//функция вывода
 void Print(int[]arr)
 {
   for (int i=0; i<arr.Length; i++)
     Console.Write($"{arr[i]}");
   Console.WriteLine();
 }
+*/
+/*Двумерные массивы 
+string[] arrayS = new string [5];
+arrayS[0] = "Vanya";
+arrayS[1] = "Sasha";
+arrayS[2] = "Ilya";
+arrayS[3] = "Petya";
+arrayS[4] = "Galia";
 
 
+//foreach (var item in arrayS)
+
+//{Console.Write($"{item} ");}
 
 
+//char ans = arrayS[2][3];/*буква h в Sasha*/
+/*
+for (int i=0; i<arrayS.Length; i++)
+{
+  for (int j=0; j<arrayS.Length; j++)
+{
+if (arrayS[i][j] == 'a')
+   Console.Write($"{i} {j}\n");
+
+}
+
+}
+*/
 
 
+//заменить все положит на отрицат//
+
+int [] array = new int[10];
+for (int i=0; i<array.Length; i++)
+  array[i] = new Random().Next(-9,10);
+
+Print(array);
 
 
+void Invers(int[] arr)
+{
+  for (int i =0;i<arr.Length; i++)
+  arr[i]= -arr[i];
+}
 
+Invers(array);
+Print(array);
 
 
 
