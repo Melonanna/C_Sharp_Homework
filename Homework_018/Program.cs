@@ -22,20 +22,3 @@ if (k1!=k2)
 else
   Console.Write($"Данные прямые параллельны (не пересекаются)");
 
-/*Console.Write($" Введите число b1: ");
-int.TryParse(Console.ReadLine()!, out b1);
-Console.Write($" Введите число k1: ");
-int.TryParse(Console.ReadLine()!, out k1);
-Console.Write($" Введите число b2: ");
-int.TryParse(Console.ReadLine()!, out b2);
-Console.Write($" Введите число k2: ");
-int.TryParse(Console.ReadLine()!, out k2);
-
-int x,y;
-
-*/
-
-//double b1=2;
-//double k1=5;
-//double b2=4;
-//double k2=9;
