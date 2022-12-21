@@ -1,9 +1,9 @@
 ﻿// Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
 
-int m=2;
-int n=3;
+int m=3;
+int n=2;
 
-Console.Write($"{Accerman(m,n)}");
+Console.Write($"m={m}, n={n} - {Accerman(m,n)} ");
 
 int Accerman(int m,int n)
 {
@@ -12,5 +12,5 @@ int Accerman(int m,int n)
   else if (n==0)
     return Accerman(m-1,1);
   else 
-    return Accerman(m-1, Accerman(m,m-1));
+    return Accerman(m-1, Accerman(m,n-1));
 }
